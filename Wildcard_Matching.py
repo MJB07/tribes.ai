@@ -1,5 +1,5 @@
 class Solution:
-    def isMatch(self, s, p):
+    def isMatch(self, s: 'str', p: 'str') -> 'bool':
         """
         :type s: str
         :type p: str

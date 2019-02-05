@@ -6,7 +6,7 @@ class TreeNode:
          self.right = None
 
 class Solution:
-    def maxPathSum(self, root):
+    def maxPathSum(self, root) -> 'int':
         """
         :type root: TreeNode
         :rtype: int
@@ -19,7 +19,7 @@ class Solution:
         return self.max_value
     
     
-    def maxPathResult(self, root):
+    def maxPathResult(self, root) -> 'int':
         
         if root == None:
             
